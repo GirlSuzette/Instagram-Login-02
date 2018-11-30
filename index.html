@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./compiled.css" />
+    <title>Instagram</title>
+</head>
+
+<body>
+    <div class="login__container">
+        <img class="login__img" src="./Imagen/insta-logo.png" alt="" />
+
+        <div class="login__container-buttom">
+            <button class="login__buttom-log">Log in with Facebook</button>
+            <i class="fab fa-facebook login___icon"></i>
+        </div>
+
+        <div class="login__or">
+            <hr class="login__or__linea" />
+            <p class="login__or__or">OR</p>
+            <hr class="login__or__linea" />
+        </div>
+
+        <form id="login">
+            <input class="login__input" type="text" id="numberOrEmail" placeholder="Mobile Number or Email" />
+            <p class="datoEmail-error">You need to enter a Mobile Number or Email.</p>
+            <input class="login__input" type="text" id="fullName" placeholder="Full Name" />
+            <p class="fullname-error">You need to enter a Full Name.</p>
+            <input class="login__input" type="text" id="username" placeholder="Username" />
+            <p class="username-error">You need to enter a username.</p>
+            <input class="login__input password" type="password" id="password" placeholder="Password" />
+            <p class="password-error">You need to enter a password.</p>
+            <button id="loginBtn" class="login__buttom-up"><span>Sing up</span></button>
+        </form>
+
+        <div class="login__terms">
+            <p>By signing up, you agree to</p>
+            <p class="login__bold">our Terms & Privacy Policy</p>
+        </div>
+    </div>
+
+    <div class="login__container2">
+        <p>
+            Have an account?<a class="login__container2-button" href="">Log in</a>
+        </p>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
